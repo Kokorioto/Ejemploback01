@@ -20,5 +20,5 @@ from ensayo2 import views as v2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('v2',v2.vista2)
+    path('v2/',v2.vista2)
 ]
